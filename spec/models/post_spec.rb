@@ -9,7 +9,10 @@ RSpec.describe Post, type: :model do
   end
   context 'Validations' do
     it { expect(subject).to validate_presence_of(:content) }
-    it { expect(subject).to validate_length_of(:content).is_at_most(1000).with_message(/1000 characters in post is the maximum allowed./) }
+    it {
+      expect(subject).to validate_length_of(:content).is_at_most(1000)
+        .with_message(/1000 characters in post is the maximum allowed./)
+    }
   end
   context 'Associations' do
     it { expect(subject).to belong_to :user }
