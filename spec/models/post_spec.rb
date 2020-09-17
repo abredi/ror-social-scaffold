@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe Post, type: :model do
   let(:user) { User.create(name: 'Rebecca Y', email: 'recca@opal.com', password: 'itsG00d2Have$') }
-  
+
   before do
     Post.create(user_id: user.id, content: 'I am the world!')
     Post.create(user_id: user.id, content: 'Here I am')
