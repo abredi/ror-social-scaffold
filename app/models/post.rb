@@ -6,8 +6,8 @@ class Post < ApplicationRecord
 
   scope :ordered_by_most_recent, -> { order(created_at: :desc) }
   scope :join_friends, lambda {
-                         joins('posts INNER JOIN "users" on users.id = posts.user_id LEFT JOIN "friendships" ON
-      ("friendships"."user_id" = "users"."id" OR friend_id = users.id) ')
+                         joins('INNER JOIN users on users.id = posts.user_id LEFT JOIN friendships ON
+      (friendships.user_id = users.id OR friend_id = users.id) ')
                        }
 
   scope :friends_post, lambda { |id|
