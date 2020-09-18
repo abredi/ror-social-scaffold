@@ -3,7 +3,7 @@
   "private": true,
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^2.3.0",
-    "tailwindcss": "^1.8.6"
+    "tailwindcss": "^1.8.10"
   },
   "devDependencies": {
     "stylelint": "^13.3.3",

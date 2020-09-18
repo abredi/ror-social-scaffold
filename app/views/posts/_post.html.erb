@@ -14,12 +14,14 @@
 
   <div class='post-comments-section'>
     <% post.comments.each do |comment| %>
-      <div class="post-comments">
-        <p>
-          <b><%= comment.user.name %>:</b> <%= comment.content %>
-        </p>
-        <span> <%= comment.created_at.strftime("%Y/%m/%d") %> </span>
-      </div>
+
+        <div class="post-comments">
+          <p>
+            <b><%= comment.user.name %>:</b> <%= comment.content %>
+          </p>
+          <span> <%= comment.created_at.strftime("%Y/%m/%d") %> </span>
+        </div>
+
     <% end %>
 
     <%= form_for(post.comments.new, url: post_comments_path(post)) do |form| %>

@@ -39,10 +39,7 @@ gem 'devise'
 
 gem 'css-class-string'
 
-group :production do
-  # Use postgresql as the database for Active Record
-  gem 'pg', '>= 0.18', '< 2.0'
-end
+gem 'pg', '>= 0.18', '< 2.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -50,7 +47,6 @@ group :development, :test do
   gem 'capybara'
   gem 'factory_bot_rails'
   gem 'rspec-rails', '~> 4.0.1'
-  gem 'sqlite3'
   gem 'webdrivers'
 end
 
