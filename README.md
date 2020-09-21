@@ -1,6 +1,7 @@
+![Hireable](https://cdn.rawgit.com/hiendv/hireable/master/styles/default/yes.svg)
 # Scaffold for social media app with Ruby on Rails
 
-> This repo includes intial code for social media app with basic styling. Its purpose is to be a starting point for Microverse students.
+> A social media app builds on the top of [ror-social-scaffold](https://github.com/microverseinc/ror-social-scaffold); its purpose is to fulfill the capstone project in Ruby on Rails learning path at Microverse.
 
 ## Built With
 
@@ -9,7 +10,7 @@
 
 ## Live Demo
 
-TBA
+https://abren.herokuapp.com/
 
 
 ## Getting Started
@@ -21,6 +22,12 @@ To get a local copy up and running follow these simple example steps.
 Ruby: 2.6.3
 Rails: 5.2.3
 Postgres: >=9.5
+
+### Get your copy 
+
+```
+git clone https://github.com/abredi/ror-social-scaffold.git
+```
 
 ### Setup
 
@@ -37,8 +44,6 @@ Setup database with:
    rails db:migrate
 ```
 
-
-
 ### Usage
 
 Start server with:
@@ -52,10 +57,8 @@ Open `http://localhost:3000/` in your browser.
 ### Run tests
 
 ```
-    rpsec --format documentation
+    rpsec 
 ```
-
-> Tests will be added by Microverse students. There are no tests for initial features in order to make sure that students write all tests from scratch.
 
 ### Deployment
 
@@ -63,7 +66,11 @@ TBA
 
 ## Authors
 
-TBA
+👤 **Abdulaziz Ali**
+![Hireable](https://cdn.rawgit.com/hiendv/hireable/master/styles/default/yes.svg)
+- Github: [@abredi](https://github.com/abredi)
+- Twitter: [@rediabdulaziz](https://twitter.com/rediabdulaziz)
+- Linkedin: [linkedin](https://www.linkedin.com/in/abdulaziz-ali-98948011a)
 
 ## 🤝 Contributing
 
@@ -75,11 +82,6 @@ Feel free to check the [issues page](issues/).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
 
-TBA
 
-## 📝 License
-
-TBA
 

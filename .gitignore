@@ -29,7 +29,6 @@
 .history
 
 .vscode
-.idea
 
-docs/.DS_Store
-
+.idea/
+ror_social_scaffold_development
