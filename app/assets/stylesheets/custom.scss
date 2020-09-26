@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap");
 
-$primary-color-dark: #689f38;
-$primary-color: #8bc34a;
-$primary-color-light: #dcedc8;
-$primary-color-text: #212121;
-$divider-color: #bdbdbd;
+$primary-color-dark: #083866;
+$primary-color: #14539b;
+$primary-color-light: #ffffff;
+$primary-color-text: #f3f3f3;
+$divider-color: #c0c0c0;
 
 * {
   margin: 0;
@@ -14,10 +14,16 @@ $divider-color: #bdbdbd;
 }
 
 body {
+  margin: 0;
+  padding: 0;
   background: #fff;
   position: relative;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+}
+
+body.m-0 {
+  margin: 0;
 }
 
 h1,
@@ -86,7 +92,7 @@ a {
 }
 
 .notice {
-  background-color: #d4f6c6;
+  background-color: #c6d3f6;
 }
 
 .alert {
